@@ -10,7 +10,7 @@
 - 最好版 JSON：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_best.json`
 
-完整版 1050 个（质量参差，后面很多没有延迟数据）：
+完整版（每 /24 网段只留最好一个，没有重复段）：：
 推到 GitHub `mht94210/proxy-api` 后，用 jsDelivr 访问，国内一般能打开：
 
 - 纯文本，每行 `http://ip:port`：

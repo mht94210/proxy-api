@@ -149,6 +149,42 @@ def fetch_ip3366():
     print(f"  ip3366 http: {len(out)}")
     return out
 
+def fetch_hproxy_cn():
+    """HProxy 免费 API：country=CN & protocol=http，带匿名度/延迟/在线率。"""
+    out = []
+    try:
+        data = json.loads(get("https://hproxy.com/api/proxy-list?format=json&country=CN&protocol=http") or "[]")
+        for x in data:
+            if x.get("country_code") != "CN":
+                continue
+            protos = x.get("protocols") or []
+            if "http" not in [str(p).lower() for p in protos]:
+                continue
+            lat = x.get("latency_ms")
+            try:
+                lat = float(lat) if lat is not None else None
+            except Exception:
+                lat = None
+            out.append(norm(x["ip"], int(x["port"]), x.get("city", "") or "",
+                            (x.get("anonymity") or "").lower(), lat, "hproxy"))
+    except Exception as e:
+        print("  hproxy-cn fail:", e)
+    print(f"  hproxy-cn http: {len(out)}")
+    return out
+
+def fetch_monosans_cn():
+    """monosans 全球 HTTP 列表，经 APNIC 中国段过滤。"""
+    out = []
+    try:
+        for line in (get("https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt") or "").splitlines():
+            m = re.match(r"(\d+\.\d+\.\d+\.\d+):(\d+)", line.strip())
+            if m and is_cn(m.group(1)):
+                out.append(norm(m.group(1), int(m.group(2)), "", "", None, "monosans-cn"))
+    except Exception as e:
+        print("  monosans-cn fail:", e)
+    print(f"  monosans-cn http: {len(out)}")
+    return out
+
 def fetch_proxora_cn():
     out = []
     try:
@@ -198,10 +234,33 @@ def quality_score(p):
             pass
     return s
 
+def subnet24(ip):
+    return ".".join(str(ip).split(".")[:3])
+
+def dedupe_by_subnet(proxies):
+    """每 /24 网段只留最好一个（列表已按质量排过序，留第一个）。"""
+    seen, out = set(), []
+    for p in proxies:
+        s = subnet24(p["ip"])
+        if s in seen:
+            continue
+        seen.add(s)
+        out.append(p)
+    return out
+
+def select_best(proxies, history_path="seen_best.json"):
+    """质量优先版：高匿 + 延迟<2000ms，或延迟<300ms；每 /24 只留一个。
+    注意：不排除上一轮的 IP——真正快的 IP 在各家源里本来就稳定，硬轮换只会把
+    最快的换成更慢的。2 小时一次重抓本身就是更新：源里死了的自动消失，新出现的自动进来。"""
+    cand = [p for p in proxies if p.get("latency_ms") is not None
+            and ((p.get("anonymity") == "elite" and p["latency_ms"] < 2000) or p["latency_ms"] < 300)]
+    cand.sort(key=lambda x: x["latency_ms"])
+    return dedupe_by_subnet(cand)
+
 def fetch_all_cn():
     all_items = []
     with ThreadPoolExecutor(max_workers=7) as ex:
-        futs = [ex.submit(fn) for fn in (fetch_zdaye, fetch_kuaidaili, fetch_qiyunip, fetch_89ip, fetch_ip3366, fetch_proxora_cn, fetch_global_cn)]
+        futs = [ex.submit(fn) for fn in (fetch_zdaye, fetch_kuaidaili, fetch_qiyunip, fetch_89ip, fetch_ip3366, fetch_proxora_cn, fetch_global_cn, fetch_hproxy_cn, fetch_monosans_cn)]
         for f in futs:
             try:
                 all_items += f.result() or []
@@ -224,15 +283,17 @@ def fetch_all_cn():
     for p in proxies:
         p["quality"] = round(quality_score(p), 1)
     proxies.sort(key=lambda x: (-x["quality"], x["latency_ms"] is None, x["latency_ms"] or 99999))
+    # 全列表也按 /24 去重：每段只留最好一个，后面不再出现重复段
+    proxies = dedupe_by_subnet(proxies)
     now = datetime.now(timezone.utc).isoformat()
     return {"updated_at": now, "total": len(proxies),
             "by_protocol": {"http": len(proxies)},
             "country": "CN", "protocols": ["http", "https"],
-            "warning": "中国境内 HTTP/HTTPS 免费代理，仅供学习测试，勿用于登录/支付/重要账号。免费代理存活很短，每 2 小时更新一次。",
+            "warning": "中国境内 HTTP/HTTPS 免费代理，每 /24 网段只留一个，仅供学习测试，勿用于登录/支付/重要账号。免费代理存活很短，每 2 小时更新一次。",
             "proxies": proxies}
 
 if __name__ == "__main__":
-    print("开始抓中国境内 HTTP/HTTPS 免费代理（目标 1000）...")
+    print("开始抓中国境内 HTTP/HTTPS 免费代理（每 /24 只留一个）...")
     t0 = time.time()
     r = fetch_all_cn()
     with open("proxies_cn.json", "w", encoding="utf-8") as f:
@@ -241,6 +302,14 @@ if __name__ == "__main__":
         json.dump(r, f, ensure_ascii=False, indent=1)
     with open("proxies_cn.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(f"http://{p['ip']}:{p['port']}" for p in r["proxies"]) + "\n")
-    print(f"完成：CN HTTP {r['total']} 个，用时 {time.time()-t0:.1f}s")
-    for p in r["proxies"][:10]:
+    best = select_best(r["proxies"])
+    with open("proxies_best.json", "w", encoding="utf-8") as f:
+        json.dump({"updated_at": r["updated_at"], "total": len(best), "country": "CN",
+                   "protocols": ["http", "https"],
+                   "definition": "高匿 + 延迟<2000ms，或延迟<300ms；每 /24 只留一个",
+                   "proxies": best}, f, ensure_ascii=False, indent=1)
+    with open("proxies_best.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(f"http://{p['ip']}:{p['port']}" for p in best) + ("\n" if best else ""))
+    print(f"完成：CN HTTP {r['total']} 个（已按 /24 去重），最好版 {len(best)} 个，用时 {time.time()-t0:.1f}s")
+    for p in best[:10]:
         print(f"  http://{p['ip']}:{p['port']} {p.get('city','')} {p.get('anonymity','')} 延迟{p.get('latency_ms')}ms 质量{p['quality']} 来源{p['source']}")
