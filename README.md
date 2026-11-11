@@ -4,11 +4,11 @@
 
 ## 稳定 API 链接（链接不变，数据更新）
 
-- 最好版（115 个，高匿 + 低延迟）：
+- 最好版（197 个，高匿 + 低延迟）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_best.txt`
-- 好代理版（全部高匿，558 个）：
+- 好代理版（全部高匿，871 个）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_good.txt`
-- 完整版（923 个）：
+- 完整版（1255 个）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_cn.txt`
 
 JSON 版把 `.txt` 换成 `.json` 就行，带国家/城市/匿名度/延迟。

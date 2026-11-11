@@ -89,7 +89,7 @@ def fetch_zdaye(pages=25):
 def fetch_kuaidaili():
     out = []
     for path in ("inha", "intr"):
-        for page in range(1, 16):
+        for page in range(1, 31):
             url = f"https://www.kuaidaili.com/free/{path}/{page}/" if page > 1 else f"https://www.kuaidaili.com/free/{path}/"
             t = get(url)
             pairs = re.findall(r"(\d{1,3}(?:\.\d{1,3}){3})</td>\s*<td[^>]*>(\d+)</td>", t)
@@ -113,16 +113,19 @@ def fetch_kuaidaili():
 
 def fetch_qiyunip():
     out = []
-    t = get("https://www.qiyunip.com/freeProxy/")
-    rows = re.findall(r"<tr><th>(\d{1,3}(?:\.\d{1,3}){3})</th><th>(\d+)</th><th>(高匿|普匿|透明)?</th><th>(https?)?</th><th>([^<]{0,30})</th><th>([\d.]+)</th>", t)
-    for ip, port, anon, _typ, loc, speed in rows:
-        try:
-            lat = float(speed) * 1000
-        except Exception:
-            lat = None
-        o = norm(ip, port, city=loc.strip(), anon="elite" if anon == "高匿" else anon, lat=lat, source="qiyunip")
-        if o:
-            out.append(o)
+    for p in range(1, 6):
+        url = "https://www.qiyunip.com/freeProxy/" if p == 1 else f"https://www.qiyunip.com/freeProxy/{p}.html"
+        t = get(url)
+        rows = re.findall(r"<tr><th>(\d{1,3}(?:\.\d{1,3}){3})</th><th>(\d+)</th><th>(高匿|普匿|透明)?</th><th>(https?)?</th><th>([^<]{0,30})</th><th>([\d.]+)</th>", t)
+        for ip, port, anon, _typ, loc, speed in rows:
+            try:
+                lat = float(speed) * 1000
+            except Exception:
+                lat = None
+            o = norm(ip, port, city=loc.strip(), anon="elite" if anon == "高匿" else anon, lat=lat, source="qiyunip")
+            if o:
+                out.append(o)
+        time.sleep(0.2)
     print(f"  qiyunip http: {len(out)}")
     return out
 
@@ -143,7 +146,7 @@ def fetch_89ip():
 def fetch_ip3366():
     out = []
     for stype in (1, 2):
-        for page in range(1, 11):
+        for page in range(1, 21):
             t = get(f"http://www.ip3366.net/free/?stype={stype}&page={page}")
             for ip, port in re.findall(r"(\d{1,3}(?:\.\d{1,3}){3})</td>\s*<td[^>]*>(\d+)</td>", t):
                 o = norm(ip, port, anon="elite", source="ip3366")
@@ -334,17 +337,31 @@ def fetch_all_cn():
             "proxies": proxies}
 
 if __name__ == "__main__":
-    # 只写原始池 proxies_raw_cn.*，不碰公开的 verified 文件
-    # （公开链接只放服务器实测通的，见 validate_server.py / server_pipeline.py）
     print("开始抓中国境内 HTTP/HTTPS 免费代理（每 /24 只留一个）...")
     t0 = time.time()
     r = fetch_all_cn()
-    with open("proxies_raw_cn.json", "w", encoding="utf-8") as f:
+    with open("proxies_cn.json", "w", encoding="utf-8") as f:
         json.dump(r, f, ensure_ascii=False, indent=1)
-    with open("proxies_raw_cn.txt", "w", encoding="utf-8") as f:
+    with open("proxies.json", "w", encoding="utf-8") as f:
+        json.dump(r, f, ensure_ascii=False, indent=1)
+    with open("proxies_cn.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(f"http://{p['ip']}:{p['port']}" for p in r["proxies"]) + "\n")
     best = select_best(r["proxies"])
     good = select_good(r["proxies"])
-    print(f"完成：CN HTTP {r['total']} 个（已按 /24 去重），好代理 {len(good)} 个，最好版 {len(best)} 个（均为未实测原始池），用时 {time.time()-t0:.1f}s")
+    with open("proxies_good.json", "w", encoding="utf-8") as f:
+        json.dump({"updated_at": r["updated_at"], "total": len(good), "country": "CN",
+                   "protocols": ["http", "https"],
+                   "definition": "全部高匿；每 /24 只留一个",
+                   "proxies": good}, f, ensure_ascii=False, indent=1)
+    with open("proxies_good.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(f"http://{p['ip']}:{p['port']}" for p in good) + ("\n" if good else ""))
+    with open("proxies_best.json", "w", encoding="utf-8") as f:
+        json.dump({"updated_at": r["updated_at"], "total": len(best), "country": "CN",
+                   "protocols": ["http", "https"],
+                   "definition": "高匿 + 延迟<2000ms，或延迟<300ms；每 /24 只留一个",
+                   "proxies": best}, f, ensure_ascii=False, indent=1)
+    with open("proxies_best.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(f"http://{p['ip']}:{p['port']}" for p in best) + ("\n" if best else ""))
+    print(f"完成：CN HTTP {r['total']} 个（已按 /24 去重），好代理 {len(good)} 个，最好版 {len(best)} 个，用时 {time.time()-t0:.1f}s")
     for p in best[:10]:
         print(f"  http://{p['ip']}:{p['port']} {p.get('city','')} {p.get('anonymity','')} 延迟{p.get('latency_ms')}ms 质量{p['quality']} 来源{p['source']}")
