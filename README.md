@@ -1,27 +1,32 @@
 # 中国免费代理 API（HTTP/HTTPS 专版）
 
-只做中国境内 HTTP/HTTPS 代理。**链接里的每一个 IP 都是山东服务器实测通的，不通的一个都不放进来。**
+只做中国境内 HTTP/HTTPS 代理，每 /24 网段只留一个，没有重复段。
 
 ## 稳定 API 链接（链接不变，数据更新）
 
-- 最好版（实测通 + 延迟低，19 个）：
+- 最好版（115 个，高匿 + 低延迟）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_best.txt`
-- 好代理版（实测通 + 高匿，66 个）：
+- 好代理版（全部高匿，558 个）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_good.txt`
-- 完整版（实测通的全部，85 个，每 /24 网段只留一个，没有重复段）：
+- 完整版（923 个）：
   `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_cn.txt`
 
-JSON 版把 `.txt` 换成 `.json` 就行，带国家/延迟/匿名度/实测时间。
+JSON 版把 `.txt` 换成 `.json` 就行，带国家/城市/匿名度/延迟。
 
 备用链接（jsDelivr 打不开时用）：
 `https://ghfast.top/https://raw.githubusercontent.com/mht94210/proxy-api/main/proxies_cn.txt`
 
 如果打开还是旧的版本，按 Ctrl+F5 强制刷新一次（浏览器会把旧版本存 7 天）。
 
-## 服务器实测结果（2026-11-12 01:28 CST，山东服务器）
-- 抓了 923 个中国 HTTP 代理，实测 **85 个通（9.2%），高匿 66 个，最好版 19 个**，最快 266ms
-- 之前按上游数据排的“最好版 115 个”大部分其实已经死了——免费代理死得很快，只看上游数据不靠谱
-- 每 2 小时重新抓、重新测，只把通的放进链接
+## 服务器实测版（另外的链接，数量少但每个都测通过）
+山东服务器实测过一轮：923 个里 85 个通，最好 19 个。想要实测过的用这几个：
+
+- 实测完整版（85 个）：
+  `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/verified_working.txt`
+- 实测最好版（19 个）：
+  `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/verified_best.txt`
+- 实测好代理版（66 个，高匿）：
+  `https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/verified_good.txt`
 
 ## 来源
 站大爷、快代理（15 页）、89ip（2000 条里用 APNIC 中国 IP 段筛出真中国 IP）、云代理（10 页）、齐云、HProxy、Proxifly、SpeedX、monosans。台湾 IP 已去掉。
@@ -39,7 +44,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 - `GET /docs` - 交互文档
 
 ## 每 2 小时更新
-抓取每 2 小时跑一次（`fetch_daily.py`，只写原始池），实测在山东服务器上跑（`validate_server.py` / `server_pipeline.py`），通的才推上 GitHub，推完自动清 jsDelivr 缓存，链接马上更新。
+抓取每 2 小时跑一次（`fetch_daily.py`，只写原始池 `proxies_raw_cn.*`），公开链接的数据更新时再推。
 
 ## 重要提醒
 免费代理存活很短（几小时就失效），仅供学习测试，**绝不能用于登录、支付、重要账号**。
