@@ -71,6 +71,7 @@ def check_one(args):
 
 
 def main():
+    global TIMEOUT
     ap = argparse.ArgumentParser()
     ap.add_argument("--in", dest="infile", default=None, help="本地 proxies_cn.txt")
     ap.add_argument("--source", default="https://cdn.jsdelivr.net/gh/mht94210/proxy-api@main/proxies_cn.txt")
@@ -78,7 +79,6 @@ def main():
     ap.add_argument("--threads", type=int, default=THREADS)
     ap.add_argument("--timeout", type=int, default=TIMEOUT)
     args = ap.parse_args()
-    global TIMEOUT
     TIMEOUT = args.timeout
 
     if args.infile:
