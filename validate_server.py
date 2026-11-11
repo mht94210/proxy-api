@@ -28,9 +28,15 @@ THREADS = 30
 
 
 def fetch_text(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return r.read().decode("utf-8", "ignore")
+    import ssl
+    for ctx in (None, ssl._create_unverified_context()):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=20, context=ctx) as r:
+                return r.read().decode("utf-8", "ignore")
+        except Exception:
+            continue
+    return ""
 
 
 def get_server_ip():
