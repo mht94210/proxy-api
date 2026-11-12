@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-13T04:19:27+08:00",
- "total": 83,
+ "updated_at": "2026-11-13T06:22:04+08:00",
+ "total": 85,
  "country": "CN",
  "protocols": [
   "http",
@@ -9,8 +9,8 @@
  "definition": "高匿 + 延迟<2000ms，或延迟<300ms；每 /24 只留一个",
  "proxies": [
   {
-   "ip": "180.109.170.243",
-   "port": 8118,
+   "ip": "218.22.74.24",
+   "port": 1920,
    "city": "中国 江苏省 镇江市 电信",
    "anonymity": "elite",
    "latency_ms": 100.0,
@@ -18,8 +18,8 @@
    "quality": 59.0
   },
   {
-   "ip": "182.109.81.65",
-   "port": 9000,
+   "ip": "123.110.112.63",
+   "port": 9064,
    "city": "中国 江苏省 镇江市 电信",
    "anonymity": "elite",
    "latency_ms": 100.0,
@@ -36,8 +36,8 @@
    "quality": 59.0
   },
   {
-   "ip": "113.119.80.59",
-   "port": 9000,
+   "ip": "49.91.39.171",
+   "port": 3128,
    "city": "中国 广东省 深圳市 联通",
    "anonymity": "elite",
    "latency_ms": 100.0,
@@ -45,16 +45,7 @@
    "quality": 59.0
   },
   {
-   "ip": "163.125.119.107",
-   "port": 9999,
-   "city": "中国 广东省 深圳市 联通",
-   "anonymity": "elite",
-   "latency_ms": 100.0,
-   "source": "kuaidaili",
-   "quality": 59.0
-  },
-  {
-   "ip": "222.89.253.175",
+   "ip": "222.222.251.129",
    "port": 9999,
    "city": "中国 广东省 清远市 电信",
    "anonymity": "elite",
@@ -63,52 +54,13 @@
    "quality": 59.0
   },
   {
-   "ip": "121.31.112.83",
-   "port": 9999,
+   "ip": "49.90.18.121",
+   "port": 3128,
    "city": "中国 新疆维吾尔自治区 乌鲁木齐市 联通",
    "anonymity": "elite",
    "latency_ms": 100.0,
    "source": "kuaidaili",
    "quality": 59.0
-  },
-  {
-   "ip": "58.246.79.38",
-   "port": 7080,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Shanghai",
-   "anonymity": "transparent",
-   "latency_ms": 154.958,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 28.5
-  },
-  {
-   "ip": "115.190.168.121",
-   "port": 808,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 155.856,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 58.4
-  },
-  {
-   "ip": "222.129.142.219",
-   "port": 9000,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "transparent",
-   "latency_ms": 162.121,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 28.4
   },
   {
    "ip": "49.7.179.70",
@@ -118,10 +70,49 @@
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "transparent",
-   "latency_ms": 163.699,
+   "latency_ms": 153.649,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 28.5
+  },
+  {
+   "ip": "58.246.79.38",
+   "port": 7080,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Shanghai",
+   "anonymity": "transparent",
+   "latency_ms": 155.226,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 28.4
+  },
+  {
+   "ip": "115.190.168.121",
+   "port": 808,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 155.544,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 58.4
+  },
+  {
+   "ip": "36.112.125.156",
+   "port": 3226,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 158.899,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 58.4
   },
   {
    "ip": "106.14.3.170",
@@ -144,7 +135,7 @@
    "country_code": "CN",
    "city": "Huilongguan",
    "anonymity": "transparent",
-   "latency_ms": 168.804,
+   "latency_ms": 168.767,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 28.3
@@ -163,17 +154,43 @@
    "quality": 58.3
   },
   {
-   "ip": "123.112.214.167",
-   "port": 9000,
+   "ip": "118.145.144.62",
+   "port": 8080,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "transparent",
-   "latency_ms": 185.038,
+   "city": "Haidian",
+   "anonymity": "elite",
+   "latency_ms": 176.75,
    "source": "geonode-cn",
    "verified_by_source": true,
-   "quality": 28.1
+   "quality": 58.2
+  },
+  {
+   "ip": "183.94.1.22",
+   "port": 80,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Wuhan",
+   "anonymity": "transparent",
+   "latency_ms": 182.551,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 28.2
+  },
+  {
+   "ip": "123.60.155.1",
+   "port": 3128,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Shanghai",
+   "anonymity": "anonymous",
+   "latency_ms": 184.434,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 38.2
   },
   {
    "ip": "101.227.56.22",
@@ -189,56 +206,17 @@
    "quality": 58.1
   },
   {
-   "ip": "59.36.172.219",
-   "port": 5004,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 186.018,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 58.1
-  },
-  {
-   "ip": "123.60.155.1",
+   "ip": "8.130.9.37",
    "port": 3128,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Shanghai",
-   "anonymity": "anonymous",
-   "latency_ms": 187.099,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 38.1
-  },
-  {
-   "ip": "183.94.1.22",
-   "port": 80,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Wuhan",
+   "city": "Beijing",
    "anonymity": "transparent",
-   "latency_ms": 189.69,
+   "latency_ms": 188.797,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 28.1
-  },
-  {
-   "ip": "103.43.17.148",
-   "port": 11101,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Taizhou",
-   "anonymity": "elite",
-   "latency_ms": 191.029,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 58.1
   },
   {
    "ip": "8.141.121.115",
@@ -261,20 +239,46 @@
    "country_code": "CN",
    "city": "Shanwei",
    "anonymity": "elite",
-   "latency_ms": 194.155,
+   "latency_ms": 194.213,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.1
   },
   {
-   "ip": "118.145.144.62",
-   "port": 8080,
+   "ip": "14.103.200.3",
+   "port": 3128,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Haidian",
+   "city": "Beijing",
+   "anonymity": "transparent",
+   "latency_ms": 195.227,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 28.0
+  },
+  {
+   "ip": "58.210.191.173",
+   "port": 8816,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Suzhou",
+   "anonymity": "transparent",
+   "latency_ms": 195.383,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 28.0
+  },
+  {
+   "ip": "103.43.17.148",
+   "port": 11101,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Taizhou",
    "anonymity": "elite",
-   "latency_ms": 195.686,
+   "latency_ms": 196.467,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.0
@@ -287,15 +291,37 @@
    "country_code": "CN",
    "city": "Guangzhou",
    "anonymity": "elite",
-   "latency_ms": 197.579,
+   "latency_ms": 196.77,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.0
   },
   {
-   "ip": "182.88.230.89",
-   "port": 8123,
+   "ip": "36.111.205.239",
+   "port": 6666,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 196.868,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 58.0
+  },
+  {
+   "ip": "60.163.32.240",
+   "port": 8088,
    "city": "中国 新疆维吾尔自治区 乌鲁木齐市 教育网",
+   "anonymity": "elite",
+   "latency_ms": 200.0,
+   "source": "kuaidaili",
+   "quality": 58.0
+  },
+  {
+   "ip": "36.97.145.29",
+   "port": 9797,
+   "city": "中国 浙江省 杭州市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
    "source": "kuaidaili",
@@ -311,8 +337,8 @@
    "quality": 58.0
   },
   {
-   "ip": "58.251.170.202",
-   "port": 9797,
+   "ip": "121.12.255.212",
+   "port": 8086,
    "city": "中国 河南省 安阳市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -320,7 +346,7 @@
    "quality": 58.0
   },
   {
-   "ip": "183.53.163.137",
+   "ip": "58.251.170.202",
    "port": 9797,
    "city": "中国 广东省 东莞市 电信",
    "anonymity": "elite",
@@ -329,8 +355,8 @@
    "quality": 58.0
   },
   {
-   "ip": "49.90.18.121",
-   "port": 3128,
+   "ip": "119.135.185.99",
+   "port": 9797,
    "city": "中国 四川省 巴中市 移动",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -345,10 +371,36 @@
    "country_code": "CN",
    "city": "Shenyang",
    "anonymity": "elite",
-   "latency_ms": 201.271,
+   "latency_ms": 201.05,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.0
+  },
+  {
+   "ip": "118.122.91.59",
+   "port": 8080,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Chengdu",
+   "anonymity": "elite",
+   "latency_ms": 204.353,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 58.0
+  },
+  {
+   "ip": "182.140.224.200",
+   "port": 20172,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Chengdu",
+   "anonymity": "elite",
+   "latency_ms": 207.263,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 57.9
   },
   {
    "ip": "58.33.109.114",
@@ -364,30 +416,17 @@
    "quality": 27.9
   },
   {
-   "ip": "118.122.91.59",
-   "port": 8080,
+   "ip": "219.152.185.159",
+   "port": 8017,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Chengdu",
-   "anonymity": "elite",
-   "latency_ms": 216.638,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 57.8
-  },
-  {
-   "ip": "58.210.191.173",
-   "port": 8816,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Suzhou",
+   "city": "Chongqing",
    "anonymity": "transparent",
-   "latency_ms": 218.049,
+   "latency_ms": 213.398,
    "source": "geonode-cn",
    "verified_by_source": true,
-   "quality": 27.8
+   "quality": 27.9
   },
   {
    "ip": "120.92.140.188",
@@ -397,7 +436,7 @@
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 218.14,
+   "latency_ms": 215.178,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 57.8
@@ -429,32 +468,6 @@
    "quality": 37.8
   },
   {
-   "ip": "219.152.185.159",
-   "port": 8017,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Chongqing",
-   "anonymity": "transparent",
-   "latency_ms": 224.951,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 27.8
-  },
-  {
-   "ip": "182.140.224.200",
-   "port": 20172,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Chengdu",
-   "anonymity": "elite",
-   "latency_ms": 227.085,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 57.7
-  },
-  {
    "ip": "106.12.86.76",
    "port": 3128,
    "protocol": "http",
@@ -475,10 +488,10 @@
    "country_code": "CN",
    "city": "Haidian",
    "anonymity": "transparent",
-   "latency_ms": 254.299,
+   "latency_ms": 243.838,
    "source": "geonode-cn",
    "verified_by_source": true,
-   "quality": 27.5
+   "quality": 27.6
   },
   {
    "ip": "183.236.232.160",
@@ -488,14 +501,27 @@
    "country_code": "CN",
    "city": "Guangzhou",
    "anonymity": "elite",
-   "latency_ms": 261.078,
+   "latency_ms": 261.303,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 57.4
   },
   {
-   "ip": "222.208.76.94",
-   "port": 9000,
+   "ip": "39.172.97.192",
+   "port": 8060,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Jiaxing",
+   "anonymity": "elite",
+   "latency_ms": 262.048,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 57.4
+  },
+  {
+   "ip": "171.39.96.120",
+   "port": 8123,
    "city": "中国 四川省 遂宁市 电信",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -503,9 +529,18 @@
    "quality": 57.0
   },
   {
-   "ip": "60.55.43.74",
-   "port": 80,
+   "ip": "183.65.10.84",
+   "port": 8088,
    "city": "中国 北京市 北京市 移动",
+   "anonymity": "elite",
+   "latency_ms": 300.0,
+   "source": "kuaidaili",
+   "quality": 57.0
+  },
+  {
+   "ip": "120.204.85.29",
+   "port": 3128,
+   "city": "中国 上海市 上海市 移动",
    "anonymity": "elite",
    "latency_ms": 300.0,
    "source": "kuaidaili",
@@ -521,17 +556,8 @@
    "quality": 57.0
   },
   {
-   "ip": "222.246.232.55",
+   "ip": "210.14.134.7",
    "port": 80,
-   "city": "中国 广东省 东莞市 联通",
-   "anonymity": "elite",
-   "latency_ms": 300.0,
-   "source": "kuaidaili",
-   "quality": 57.0
-  },
-  {
-   "ip": "110.84.129.27",
-   "port": 8888,
    "city": "中国 广东省 广州市 电信",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -539,7 +565,7 @@
    "quality": 57.0
   },
   {
-   "ip": "106.34.159.177",
+   "ip": "117.37.246.33",
    "port": 80,
    "city": "中国 广东省 中山市 电信",
    "anonymity": "elite",
@@ -548,8 +574,8 @@
    "quality": 57.0
   },
   {
-   "ip": "49.93.3.104",
-   "port": 80,
+   "ip": "163.125.119.107",
+   "port": 9999,
    "city": "中国 湖北省 襄樊市 电信",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -557,8 +583,8 @@
    "quality": 57.0
   },
   {
-   "ip": "117.176.62.148",
-   "port": 3128,
+   "ip": "121.31.112.83",
+   "port": 9999,
    "city": "中国 北京市 北京市 鹏博士",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -566,302 +592,219 @@
    "quality": 57.0
   },
   {
-   "ip": "183.240.64.46",
-   "port": 9090,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 301.377,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 57.0
-  },
-  {
-   "ip": "218.207.164.174",
-   "port": 7890,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 322.634,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 56.8
-  },
-  {
-   "ip": "120.27.224.64",
-   "port": 3129,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 764.0,
-   "source": "hproxy",
-   "quality": 52.4
-  },
-  {
-   "ip": "116.62.202.70",
-   "port": 17900,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 772.0,
-   "source": "hproxy",
-   "quality": 52.3
-  },
-  {
-   "ip": "122.246.4.30",
-   "port": 17981,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 799.0,
-   "source": "hproxy",
-   "quality": 52.0
-  },
-  {
-   "ip": "1.15.53.214",
-   "port": 8888,
-   "city": "Shanghai",
-   "anonymity": "elite",
-   "latency_ms": 816.0,
-   "source": "hproxy",
-   "quality": 51.8
-  },
-  {
-   "ip": "47.107.48.145",
-   "port": 8020,
-   "city": "Shenzhen",
-   "anonymity": "elite",
-   "latency_ms": 840.0,
-   "source": "hproxy",
-   "quality": 51.6
-  },
-  {
-   "ip": "8.138.217.152",
-   "port": 21001,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 855.0,
-   "source": "hproxy",
-   "quality": 51.5
-  },
-  {
-   "ip": "101.66.198.176",
-   "port": 8085,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 856.0,
-   "source": "hproxy",
-   "quality": 51.4
-  },
-  {
-   "ip": "123.57.94.90",
-   "port": 8888,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 858.0,
-   "source": "hproxy",
-   "quality": 51.4
-  },
-  {
-   "ip": "101.66.195.138",
-   "port": 8085,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 869.0,
-   "source": "hproxy",
-   "quality": 51.3
-  },
-  {
-   "ip": "39.106.170.168",
-   "port": 8080,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 873.0,
-   "source": "hproxy",
-   "quality": 51.3
-  },
-  {
-   "ip": "114.55.168.172",
-   "port": 8080,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 887.0,
-   "source": "hproxy",
-   "quality": 51.1
-  },
-  {
    "ip": "47.103.30.64",
    "port": 8080,
    "city": "Shanghai",
    "anonymity": "elite",
-   "latency_ms": 890.0,
+   "latency_ms": 741.0,
    "source": "hproxy",
-   "quality": 51.1
-  },
-  {
-   "ip": "106.14.104.209",
-   "port": 8080,
-   "city": "Shanghai",
-   "anonymity": "elite",
-   "latency_ms": 896.0,
-   "source": "hproxy",
-   "quality": 51.0
-  },
-  {
-   "ip": "39.106.165.196",
-   "port": 8080,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 898.0,
-   "source": "hproxy",
-   "quality": 51.0
-  },
-  {
-   "ip": "139.9.101.93",
-   "port": 80,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 902.0,
-   "source": "hproxy",
-   "quality": 51.0
-  },
-  {
-   "ip": "175.178.6.115",
-   "port": 8080,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 937.0,
-   "source": "hproxy",
-   "quality": 50.6
+   "quality": 52.6
   },
   {
    "ip": "47.98.242.7",
    "port": 84,
    "city": "Hangzhou",
    "anonymity": "elite",
-   "latency_ms": 940.0,
+   "latency_ms": 742.0,
    "source": "hproxy",
-   "quality": 50.6
+   "quality": 52.6
+  },
+  {
+   "ip": "39.106.170.168",
+   "port": 8080,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 793.0,
+   "source": "hproxy",
+   "quality": 52.1
+  },
+  {
+   "ip": "175.178.6.115",
+   "port": 8080,
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 802.0,
+   "source": "hproxy",
+   "quality": 52.0
+  },
+  {
+   "ip": "114.55.168.172",
+   "port": 8080,
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 819.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 51.8
+  },
+  {
+   "ip": "139.9.101.93",
+   "port": 80,
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 819.0,
+   "source": "hproxy",
+   "quality": 51.8
+  },
+  {
+   "ip": "39.106.165.196",
+   "port": 8080,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 821.0,
+   "source": "hproxy",
+   "quality": 51.8
+  },
+  {
+   "ip": "110.40.178.232",
+   "port": 8080,
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 851.0,
+   "source": "hproxy",
+   "quality": 51.5
   },
   {
    "ip": "47.107.108.142",
    "port": 8080,
    "city": "Shenzhen",
    "anonymity": "elite",
-   "latency_ms": 954.0,
+   "latency_ms": 893.0,
    "source": "hproxy",
-   "quality": 50.5
+   "quality": 51.1
+  },
+  {
+   "ip": "122.246.4.30",
+   "port": 17981,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 901.0,
+   "source": "hproxy",
+   "quality": 51.0
+  },
+  {
+   "ip": "101.66.195.138",
+   "port": 8085,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 918.0,
+   "source": "hproxy",
+   "quality": 50.8
   },
   {
    "ip": "60.247.225.197",
    "port": 8880,
    "city": "Ulanqab",
    "anonymity": "elite",
-   "latency_ms": 957.0,
+   "latency_ms": 943.0,
    "source": "hproxy,geonode-cn",
-   "quality": 50.4
-  },
-  {
-   "ip": "116.196.150.180",
-   "port": 17981,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 1171.0,
-   "source": "hproxy",
-   "quality": 48.3
-  },
-  {
-   "ip": "36.147.78.166",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 1196.0,
-   "source": "hproxy",
-   "quality": 48.0
-  },
-  {
-   "ip": "153.0.171.163",
-   "port": 8085,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 1391.0,
-   "source": "hproxy,geonode-cn",
-   "quality": 46.1
+   "quality": 50.6
   },
   {
    "ip": "101.66.199.96",
    "port": 8085,
    "city": "",
    "anonymity": "elite",
-   "latency_ms": 1408.0,
+   "latency_ms": 963.0,
    "source": "hproxy",
-   "quality": 45.9
+   "quality": 50.4
   },
   {
-   "ip": "111.192.42.91",
+   "ip": "101.66.198.176",
+   "port": 8085,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 988.0,
+   "source": "hproxy",
+   "quality": 50.1
+  },
+  {
+   "ip": "116.196.150.180",
+   "port": 17981,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 1044.0,
+   "source": "hproxy",
+   "quality": 49.6
+  },
+  {
+   "ip": "1.15.53.214",
+   "port": 8888,
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 1047.0,
+   "source": "hproxy",
+   "quality": 49.5
+  },
+  {
+   "ip": "112.5.128.78",
+   "port": 8060,
+   "city": "Xiamen",
+   "anonymity": "elite",
+   "latency_ms": 1107.0,
+   "source": "hproxy",
+   "quality": 48.9
+  },
+  {
+   "ip": "106.14.104.209",
+   "port": 8080,
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 1141.0,
+   "source": "hproxy",
+   "quality": 48.6
+  },
+  {
+   "ip": "183.240.64.46",
+   "port": 9090,
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 1151.0,
+   "source": "hproxy,geonode-cn",
+   "quality": 48.5
+  },
+  {
+   "ip": "153.0.171.163",
+   "port": 8085,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1242.0,
+   "source": "hproxy,geonode-cn",
+   "quality": 47.6
+  },
+  {
+   "ip": "36.147.78.166",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 1438.0,
+   "source": "hproxy",
+   "quality": 45.6
+  },
+  {
+   "ip": "123.121.113.161",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1584,
+   "latency_ms": 1447,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 44.2
+   "quality": 45.5
   },
   {
-   "ip": "125.33.195.27",
+   "ip": "221.221.148.144",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1649,
+   "latency_ms": 1466,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 43.5
-  },
-  {
-   "ip": "221.221.146.154",
-   "port": 8888,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 1693,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 43.1
-  },
-  {
-   "ip": "123.121.140.205",
-   "port": 8888,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 1721,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 42.8
-  },
-  {
-   "ip": "123.121.114.100",
-   "port": 8888,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 1788,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 42.1
+   "quality": 45.3
   },
   {
    "ip": "111.192.57.125",
@@ -871,49 +814,128 @@
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1807,
+   "latency_ms": 1491,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 41.9
+   "quality": 45.1
   },
   {
-   "ip": "123.121.142.252",
+   "ip": "111.192.42.91",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1879,
+   "latency_ms": 1565,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 41.2
+   "quality": 44.4
   },
   {
-   "ip": "111.201.99.185",
+   "ip": "111.196.30.74",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1940,
+   "latency_ms": 1593,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 40.6
+   "quality": 44.1
   },
   {
-   "ip": "221.221.144.98",
+   "ip": "114.249.238.248",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1975,
+   "latency_ms": 1607,
    "source": "proxora-cn",
    "verified_by_source": true,
-   "quality": 40.2
+   "quality": 43.9
+  },
+  {
+   "ip": "123.121.114.234",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1615,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 43.9
+  },
+  {
+   "ip": "36.213.79.159",
+   "port": 1081,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 1631.0,
+   "source": "hproxy",
+   "quality": 43.7
+  },
+  {
+   "ip": "221.221.154.122",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1638,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 43.6
+  },
+  {
+   "ip": "123.121.101.115",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1696,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 43.0
+  },
+  {
+   "ip": "221.221.146.154",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1823,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 41.8
+  },
+  {
+   "ip": "8.138.217.152",
+   "port": 21001,
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 1837.0,
+   "source": "hproxy",
+   "quality": 41.6
+  },
+  {
+   "ip": "121.40.145.160",
+   "port": 19940,
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 1965.0,
+   "source": "hproxy",
+   "quality": 40.4
   }
  ]
 }
