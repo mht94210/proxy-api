@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-16T08:15:32+08:00",
- "total": 412,
+ "updated_at": "2026-11-16T14:19:35+08:00",
+ "total": 310,
  "country": "CN",
  "protocols": [
   "http",
@@ -8,6 +8,19 @@
  ],
  "definition": "全部高匿；每 /24 只留一个",
  "proxies": [
+  {
+   "ip": "61.160.202.71",
+   "port": 80,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "中国 广东 深圳",
+   "anonymity": "elite",
+   "latency_ms": 77.932,
+   "source": "qiyunip",
+   "verified_by_source": true,
+   "quality": 59.2
+  },
   {
    "ip": "60.188.5.129",
    "port": 80,
@@ -22,8 +35,8 @@
    "quality": 59.2
   },
   {
-   "ip": "112.54.124.34",
-   "port": 8123,
+   "ip": "150.255.9.66",
+   "port": 8090,
    "city": "中国 江苏省 苏州市 电信",
    "anonymity": "elite",
    "latency_ms": 100.0,
@@ -31,7 +44,7 @@
    "quality": 59.0
   },
   {
-   "ip": "163.125.206.25",
+   "ip": "58.251.230.9",
    "port": 9797,
    "city": "中国 广东省 深圳市 铁通",
    "anonymity": "elite",
@@ -40,8 +53,8 @@
    "quality": 59.0
   },
   {
-   "ip": "163.125.17.124",
-   "port": 8888,
+   "ip": "183.60.44.136",
+   "port": 88,
    "city": "中国 浙江省 台州市 电信",
    "anonymity": "elite",
    "latency_ms": 100.0,
@@ -49,34 +62,12 @@
    "quality": 59.0
   },
   {
-   "ip": "221.182.62.115",
-   "port": 9999,
+   "ip": "113.66.157.120",
+   "port": 9797,
    "city": "中国 北京市 北京市 龙腾佳讯",
    "anonymity": "elite",
    "latency_ms": 100.0,
    "source": "kuaidaili",
-   "quality": 59.0
-  },
-  {
-   "ip": "122.200.76.132",
-   "port": 8080,
-   "city": "中国 山东省 东营市 联通",
-   "anonymity": "elite",
-   "latency_ms": 100.0,
-   "source": "kuaidaili",
-   "quality": 59.0
-  },
-  {
-   "ip": "159.226.227.78",
-   "port": 80,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "中国 广东 深圳",
-   "anonymity": "elite",
-   "latency_ms": 102.524,
-   "source": "qiyunip",
-   "verified_by_source": true,
    "quality": 59.0
   },
   {
@@ -145,14 +136,14 @@
    "quality": 58.8
   },
   {
-   "ip": "117.69.159.208",
-   "port": 41122,
+   "ip": "140.249.88.214",
+   "port": 80,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "中国 安徽 黄山",
+   "city": "中国 广东 深圳",
    "anonymity": "elite",
-   "latency_ms": 123.374,
+   "latency_ms": 118.706,
    "source": "qiyunip",
    "verified_by_source": true,
    "quality": 58.8
@@ -169,19 +160,6 @@
    "source": "qiyunip",
    "verified_by_source": true,
    "quality": 58.8
-  },
-  {
-   "ip": "114.231.8.153",
-   "port": 8089,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "中国 江苏 南通",
-   "anonymity": "elite",
-   "latency_ms": 125.326,
-   "source": "qiyunip",
-   "verified_by_source": true,
-   "quality": 58.7
   },
   {
    "ip": "60.28.196.220",
@@ -223,43 +201,17 @@
    "quality": 58.6
   },
   {
-   "ip": "42.63.65.70",
+   "ip": "159.226.227.98",
    "port": 80,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "中国 广东 深圳",
    "anonymity": "elite",
-   "latency_ms": 140.846,
+   "latency_ms": 143.981,
    "source": "qiyunip",
    "verified_by_source": true,
    "quality": 58.6
-  },
-  {
-   "ip": "114.231.46.104",
-   "port": 8089,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "中国 江苏 南通",
-   "anonymity": "elite",
-   "latency_ms": 142.731,
-   "source": "qiyunip",
-   "verified_by_source": true,
-   "quality": 58.6
-  },
-  {
-   "ip": "47.100.201.85",
-   "port": 80,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "中国 上海",
-   "anonymity": "elite",
-   "latency_ms": 146.781,
-   "source": "qiyunip",
-   "verified_by_source": true,
-   "quality": 58.5
   },
   {
    "ip": "157.255.19.108",
@@ -269,21 +221,34 @@
    "country_code": "CN",
    "city": "Guangzhou",
    "anonymity": "elite",
-   "latency_ms": 162.175,
+   "latency_ms": 162.13,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.4
   },
   {
-   "ip": "8.141.121.115",
-   "port": 13126,
+   "ip": "223.247.47.52",
+   "port": 8089,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Beijing",
+   "city": "中国 安徽 池州",
    "anonymity": "elite",
-   "latency_ms": 167.133,
-   "source": "geonode-cn",
+   "latency_ms": 164.084,
+   "source": "qiyunip",
+   "verified_by_source": true,
+   "quality": 58.4
+  },
+  {
+   "ip": "42.63.65.15",
+   "port": 80,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "中国 广东 深圳",
+   "anonymity": "elite",
+   "latency_ms": 169.427,
+   "source": "qiyunip",
    "verified_by_source": true,
    "quality": 58.3
   },
@@ -295,10 +260,23 @@
    "country_code": "CN",
    "city": "Shanwei",
    "anonymity": "elite",
-   "latency_ms": 170.22,
+   "latency_ms": 170.25,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.3
+  },
+  {
+   "ip": "123.169.35.17",
+   "port": 9999,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "中国 山东 烟台",
+   "anonymity": "elite",
+   "latency_ms": 177.207,
+   "source": "qiyunip",
+   "verified_by_source": true,
+   "quality": 58.2
   },
   {
    "ip": "113.121.45.33",
@@ -314,41 +292,15 @@
    "quality": 58.1
   },
   {
-   "ip": "101.227.56.22",
-   "port": 8118,
+   "ip": "114.231.8.107",
+   "port": 8089,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Shanghai",
+   "city": "中国 江苏 南通",
    "anonymity": "elite",
-   "latency_ms": 188.039,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 58.1
-  },
-  {
-   "ip": "120.92.140.188",
-   "port": 7890,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 188.942,
-   "source": "geonode-cn",
-   "verified_by_source": true,
-   "quality": 58.1
-  },
-  {
-   "ip": "103.43.17.157",
-   "port": 11111,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Taizhou",
-   "anonymity": "elite",
-   "latency_ms": 193.296,
-   "source": "geonode-cn",
+   "latency_ms": 191.529,
+   "source": "qiyunip",
    "verified_by_source": true,
    "quality": 58.1
   },
@@ -379,21 +331,34 @@
    "quality": 58.1
   },
   {
-   "ip": "182.140.224.200",
-   "port": 20172,
+   "ip": "103.43.17.151",
+   "port": 11111,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Chengdu",
+   "city": "Taizhou",
    "anonymity": "elite",
-   "latency_ms": 196.108,
+   "latency_ms": 197.008,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 58.0
   },
   {
-   "ip": "183.207.228.7",
-   "port": 9498,
+   "ip": "101.227.56.22",
+   "port": 8118,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 199.849,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 58.0
+  },
+  {
+   "ip": "183.223.78.72",
+   "port": 8123,
    "city": "中国 江苏省 镇江市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -401,8 +366,17 @@
    "quality": 58.0
   },
   {
-   "ip": "140.112.252.225",
-   "port": 8088,
+   "ip": "121.33.84.12",
+   "port": 8090,
+   "city": "中国 广东省 深圳市 阿里云",
+   "anonymity": "elite",
+   "latency_ms": 200.0,
+   "source": "kuaidaili",
+   "quality": 58.0
+  },
+  {
+   "ip": "171.39.83.248",
+   "port": 8123,
    "city": "中国 四川省 绵阳市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -410,8 +384,17 @@
    "quality": 58.0
   },
   {
-   "ip": "60.217.223.178",
-   "port": 8090,
+   "ip": "121.232.145.196",
+   "port": 9000,
+   "city": "中国 移动",
+   "anonymity": "elite",
+   "latency_ms": 200.0,
+   "source": "kuaidaili",
+   "quality": 58.0
+  },
+  {
+   "ip": "182.92.67.54",
+   "port": 80,
    "city": "中国 江苏省 南通市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -419,7 +402,7 @@
    "quality": 58.0
   },
   {
-   "ip": "111.13.12.202",
+   "ip": "183.57.78.93",
    "port": 80,
    "city": "中国 广西壮族自治区 桂林市 联通",
    "anonymity": "elite",
@@ -428,8 +411,8 @@
    "quality": 58.0
   },
   {
-   "ip": "27.46.23.81",
-   "port": 8888,
+   "ip": "113.102.252.204",
+   "port": 9999,
    "city": "中国 广东省 深圳市 联通",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -437,8 +420,8 @@
    "quality": 58.0
   },
   {
-   "ip": "61.163.165.165",
-   "port": 9999,
+   "ip": "110.84.129.27",
+   "port": 8888,
    "city": "中国  铁通",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -446,7 +429,7 @@
    "quality": 58.0
   },
   {
-   "ip": "49.93.33.5",
+   "ip": "49.90.37.240",
    "port": 80,
    "city": "中国 铁通",
    "anonymity": "elite",
@@ -455,8 +438,8 @@
    "quality": 58.0
   },
   {
-   "ip": "122.72.30.199",
-   "port": 80,
+   "ip": "220.198.106.39",
+   "port": 9999,
    "city": "中国 浙江省 杭州市 移动",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -464,8 +447,8 @@
    "quality": 58.0
   },
   {
-   "ip": "182.92.81.187",
-   "port": 8888,
+   "ip": "111.161.126.84",
+   "port": 80,
    "city": "中国 北京市 北京市 阿里云",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -473,8 +456,8 @@
    "quality": 58.0
   },
   {
-   "ip": "120.192.92.98",
-   "port": 80,
+   "ip": "116.4.38.18",
+   "port": 9000,
    "city": "中国 天津市 天津市 联通",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -482,8 +465,8 @@
    "quality": 58.0
   },
   {
-   "ip": "116.226.70.246",
-   "port": 9000,
+   "ip": "183.57.82.74",
+   "port": 8081,
    "city": "中国 上海市 上海市 电信",
    "anonymity": "elite",
    "latency_ms": 200.0,
@@ -491,35 +474,17 @@
    "quality": 58.0
   },
   {
-   "ip": "123.7.115.141",
-   "port": 9999,
-   "city": "中国 上海市 上海市 电信",
-   "anonymity": "elite",
-   "latency_ms": 200.0,
-   "source": "kuaidaili",
-   "quality": 58.0
-  },
-  {
-   "ip": "118.244.209.98",
-   "port": 80,
-   "city": "中国 广东省 深圳市 移动",
-   "anonymity": "elite",
-   "latency_ms": 200.0,
-   "source": "kuaidaili",
-   "quality": 58.0
-  },
-  {
-   "ip": "59.36.172.219",
-   "port": 5004,
+   "ip": "182.140.224.200",
+   "port": 20172,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
-   "city": "Guangzhou",
+   "city": "Chengdu",
    "anonymity": "elite",
-   "latency_ms": 202.61,
+   "latency_ms": 216.505,
    "source": "geonode-cn",
    "verified_by_source": true,
-   "quality": 58.0
+   "quality": 57.8
   },
   {
    "ip": "115.190.168.121",
@@ -529,10 +494,10 @@
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 211.035,
+   "latency_ms": 220.209,
    "source": "geonode-cn",
    "verified_by_source": true,
-   "quality": 57.9
+   "quality": 57.8
   },
   {
    "ip": "118.122.91.59",
@@ -542,7 +507,7 @@
    "country_code": "CN",
    "city": "Chengdu",
    "anonymity": "elite",
-   "latency_ms": 220.277,
+   "latency_ms": 220.644,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 57.8
@@ -555,7 +520,7 @@
    "country_code": "CN",
    "city": "Guangzhou",
    "anonymity": "elite",
-   "latency_ms": 248.29,
+   "latency_ms": 248.46,
    "source": "geonode-cn",
    "verified_by_source": true,
    "quality": 57.5
@@ -574,6 +539,19 @@
    "quality": 57.5
   },
   {
+   "ip": "118.145.144.62",
+   "port": 8080,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Haidian",
+   "anonymity": "elite",
+   "latency_ms": 262.121,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 57.4
+  },
+  {
    "ip": "111.225.153.136",
    "port": 8089,
    "protocol": "http",
@@ -587,8 +565,21 @@
    "quality": 57.3
   },
   {
-   "ip": "118.123.46.122",
-   "port": 8998,
+   "ip": "218.207.164.174",
+   "port": 7890,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 288.6,
+   "source": "geonode-cn",
+   "verified_by_source": true,
+   "quality": 57.1
+  },
+  {
+   "ip": "183.220.70.40",
+   "port": 8123,
    "city": "中国 江苏省 镇江市 电信",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -596,8 +587,8 @@
    "quality": 57.0
   },
   {
-   "ip": "222.82.222.242",
-   "port": 9999,
+   "ip": "111.184.226.3",
+   "port": 8088,
    "city": "中国 广东省 深圳市 移动",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -605,8 +596,8 @@
    "quality": 57.0
   },
   {
-   "ip": "61.157.126.37",
-   "port": 18000,
+   "ip": "112.91.208.78",
+   "port": 9999,
    "city": "中国 河南省 周口市 联通",
    "anonymity": "elite",
    "latency_ms": 300.0,
@@ -662,164 +653,102 @@
    "quality": 53.9
   },
   {
-   "ip": "122.246.4.30",
-   "port": 17981,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 734.0,
-   "source": "hproxy",
-   "quality": 52.7
-  },
-  {
    "ip": "47.103.30.64",
    "port": 8080,
    "city": "Shanghai",
    "anonymity": "elite",
-   "latency_ms": 757.0,
+   "latency_ms": 769.0,
    "source": "hproxy,proxora-cn",
-   "quality": 52.4
-  },
-  {
-   "ip": "39.106.170.168",
-   "port": 8080,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 802.0,
-   "source": "hproxy,proxora-cn",
-   "quality": 52.0
-  },
-  {
-   "ip": "123.57.94.90",
-   "port": 8888,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 812.0,
-   "source": "hproxy",
-   "quality": 51.9
-  },
-  {
-   "ip": "8.138.217.152",
-   "port": 21001,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 822.0,
-   "source": "hproxy,proxora-cn",
-   "quality": 51.8
-  },
-  {
-   "ip": "175.178.6.115",
-   "port": 8080,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 824.0,
-   "source": "hproxy",
-   "quality": 51.8
+   "quality": 52.3
   },
   {
    "ip": "47.107.108.142",
    "port": 8080,
    "city": "Shenzhen",
    "anonymity": "elite",
-   "latency_ms": 852.0,
+   "latency_ms": 831.0,
    "source": "hproxy",
-   "quality": 51.5
-  },
-  {
-   "ip": "120.55.169.40",
-   "port": 7890,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 854.0,
-   "source": "hproxy",
-   "quality": 51.5
-  },
-  {
-   "ip": "139.9.101.93",
-   "port": 80,
-   "city": "Guangzhou",
-   "anonymity": "elite",
-   "latency_ms": 864.0,
-   "source": "hproxy",
-   "quality": 51.4
-  },
-  {
-   "ip": "60.247.225.197",
-   "port": 8880,
-   "city": "Ulanqab",
-   "anonymity": "elite",
-   "latency_ms": 923.0,
-   "source": "hproxy,geonode-cn",
-   "quality": 50.8
-  },
-  {
-   "ip": "114.55.168.172",
-   "port": 8080,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 941.0,
-   "source": "hproxy,proxora-cn",
-   "quality": 50.6
-  },
-  {
-   "ip": "39.106.165.196",
-   "port": 8080,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 944,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 50.6
-  },
-  {
-   "ip": "61.130.176.21",
-   "port": 17458,
-   "city": "浙江省丽水市 电信",
-   "anonymity": "elite",
-   "latency_ms": 953.0,
-   "source": "zdaye,hproxy",
-   "quality": 50.5
-  },
-  {
-   "ip": "106.14.104.209",
-   "port": 8080,
-   "city": "Shanghai",
-   "anonymity": "elite",
-   "latency_ms": 954.0,
-   "source": "hproxy,proxora-cn",
-   "quality": 50.5
-  },
-  {
-   "ip": "47.105.87.154",
-   "port": 3128,
-   "city": "Qingdao",
-   "anonymity": "elite",
-   "latency_ms": 988.0,
-   "source": "hproxy",
-   "quality": 50.1
+   "quality": 51.7
   },
   {
    "ip": "101.66.199.96",
    "port": 8085,
    "city": "",
    "anonymity": "elite",
-   "latency_ms": 1034.0,
+   "latency_ms": 844.0,
    "source": "hproxy",
-   "quality": 49.7
+   "quality": 51.6
   },
   {
-   "ip": "36.6.144.160",
-   "port": 8089,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "中国 安徽 淮北",
+   "ip": "114.55.168.172",
+   "port": 8080,
+   "city": "Hangzhou",
    "anonymity": "elite",
-   "latency_ms": 1040.802,
-   "source": "qiyunip",
-   "verified_by_source": true,
+   "latency_ms": 860.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 51.4
+  },
+  {
+   "ip": "39.106.165.196",
+   "port": 8080,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 876.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 51.2
+  },
+  {
+   "ip": "61.130.176.21",
+   "port": 18732,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 887.0,
+   "source": "hproxy",
+   "quality": 51.1
+  },
+  {
+   "ip": "60.247.225.197",
+   "port": 8880,
+   "city": "Ulanqab",
+   "anonymity": "elite",
+   "latency_ms": 937.0,
+   "source": "hproxy,geonode-cn",
+   "quality": 50.6
+  },
+  {
+   "ip": "120.27.224.64",
+   "port": 3129,
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 999.0,
+   "source": "hproxy",
+   "quality": 50.0
+  },
+  {
+   "ip": "116.196.150.180",
+   "port": 17981,
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 1012.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 49.9
+  },
+  {
+   "ip": "153.0.171.163",
+   "port": 8085,
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1036.0,
+   "source": "hproxy,geonode-cn",
+   "quality": 49.6
+  },
+  {
+   "ip": "120.55.169.40",
+   "port": 7890,
+   "city": "Hangzhou",
+   "anonymity": "elite",
+   "latency_ms": 1042.0,
+   "source": "hproxy",
    "quality": 49.6
   },
   {
@@ -827,27 +756,18 @@
    "port": 8080,
    "city": "Shanghai",
    "anonymity": "elite",
-   "latency_ms": 1072.0,
+   "latency_ms": 1133.0,
    "source": "hproxy",
-   "quality": 49.3
+   "quality": 48.7
   },
   {
    "ip": "36.147.78.166",
    "port": 80,
    "city": "",
    "anonymity": "elite",
-   "latency_ms": 1090.0,
+   "latency_ms": 1166.0,
    "source": "hproxy",
-   "quality": 49.1
-  },
-  {
-   "ip": "112.5.128.78",
-   "port": 8060,
-   "city": "Xiamen",
-   "anonymity": "elite",
-   "latency_ms": 1114.0,
-   "source": "hproxy",
-   "quality": 48.9
+   "quality": 48.3
   },
   {
    "ip": "117.69.236.197",
@@ -876,17 +796,40 @@
    "quality": 46.5
   },
   {
-   "ip": "8.138.16.247",
+   "ip": "39.106.170.168",
    "port": 8080,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 1371.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 46.3
+  },
+  {
+   "ip": "122.246.4.30",
+   "port": 17981,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 1390.0,
+   "source": "hproxy",
+   "quality": 46.1
+  },
+  {
+   "ip": "139.9.101.93",
+   "port": 80,
    "city": "Guangzhou",
    "anonymity": "elite",
-   "latency_ms": 1400,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 46.0
+   "latency_ms": 1474.0,
+   "source": "hproxy",
+   "quality": 45.3
+  },
+  {
+   "ip": "106.14.104.209",
+   "port": 8080,
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 1510.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 44.9
   },
   {
    "ip": "114.106.134.77",
@@ -902,35 +845,13 @@
    "quality": 43.1
   },
   {
-   "ip": "123.121.114.234",
+   "ip": "123.57.94.90",
    "port": 8888,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 1866,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 41.3
-  },
-  {
-   "ip": "121.40.145.160",
-   "port": 19940,
-   "city": "Hangzhou",
-   "anonymity": "elite",
-   "latency_ms": 1870.0,
+   "latency_ms": 1830.0,
    "source": "hproxy",
-   "quality": 41.3
-  },
-  {
-   "ip": "36.213.79.159",
-   "port": 1081,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": 1982.0,
-   "source": "hproxy",
-   "quality": 40.2
+   "quality": 41.7
   },
   {
    "ip": "120.79.31.133",
@@ -959,6 +880,15 @@
    "quality": 39.9
   },
   {
+   "ip": "47.105.87.154",
+   "port": 3128,
+   "city": "Qingdao",
+   "anonymity": "elite",
+   "latency_ms": 2040.0,
+   "source": "hproxy",
+   "quality": 39.6
+  },
+  {
    "ip": "116.63.128.247",
    "port": 81,
    "protocol": "http",
@@ -969,6 +899,15 @@
    "latency_ms": 2042.261,
    "source": "qiyunip",
    "verified_by_source": true,
+   "quality": 39.6
+  },
+  {
+   "ip": "140.210.196.193",
+   "port": 6969,
+   "city": "中国 北京",
+   "anonymity": "elite",
+   "latency_ms": 2044.683,
+   "source": "ip3366,qiyunip",
    "quality": 39.6
   },
   {
@@ -1063,19 +1002,6 @@
    "quality": 38.9
   },
   {
-   "ip": "47.107.107.24",
-   "port": 80,
-   "protocol": "http",
-   "country": "中国",
-   "country_code": "CN",
-   "city": "Shenzhen",
-   "anonymity": "elite",
-   "latency_ms": 2255,
-   "source": "proxora-cn",
-   "verified_by_source": true,
-   "quality": 37.5
-  },
-  {
    "ip": "8.209.64.208",
    "port": 1234,
    "protocol": "http",
@@ -1089,6 +1015,19 @@
    "quality": 34.5
   },
   {
+   "ip": "1.15.53.214",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 2580,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 34.2
+  },
+  {
    "ip": "47.91.45.198",
    "port": 8080,
    "protocol": "http",
@@ -1100,6 +1039,37 @@
    "source": "qiyunip",
    "verified_by_source": true,
    "quality": 33.3
+  },
+  {
+   "ip": "140.246.125.194",
+   "port": 9099,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 2669.0,
+   "source": "hproxy",
+   "quality": 33.3
+  },
+  {
+   "ip": "222.128.171.2",
+   "port": 8888,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Beijing",
+   "anonymity": "elite",
+   "latency_ms": 2908,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 30.9
+  },
+  {
+   "ip": "8.138.217.152",
+   "port": 21001,
+   "city": "Guangzhou",
+   "anonymity": "elite",
+   "latency_ms": 2952.0,
+   "source": "hproxy,proxora-cn",
+   "quality": 30.5
   },
   {
    "ip": "36.6.145.124",
@@ -1128,14 +1098,27 @@
    "quality": 30
   },
   {
-   "ip": "123.121.102.115",
+   "ip": "123.121.101.115",
    "port": 8888,
    "protocol": "http",
    "country": "中国",
    "country_code": "CN",
    "city": "Beijing",
    "anonymity": "elite",
-   "latency_ms": 4139,
+   "latency_ms": 4066,
+   "source": "proxora-cn",
+   "verified_by_source": true,
+   "quality": 30
+  },
+  {
+   "ip": "47.107.107.24",
+   "port": 80,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "Shenzhen",
+   "anonymity": "elite",
+   "latency_ms": 4174,
    "source": "proxora-cn",
    "verified_by_source": true,
    "quality": 30
@@ -1167,21 +1150,16 @@
    "quality": 30
   },
   {
-   "ip": "36.111.205.203",
-   "port": 6666,
-   "city": "Shanghai",
+   "ip": "123.182.59.9",
+   "port": 8089,
+   "protocol": "http",
+   "country": "中国",
+   "country_code": "CN",
+   "city": "中国 河北 张家口",
    "anonymity": "elite",
-   "latency_ms": 7651.0,
-   "source": "hproxy",
-   "quality": 30
-  },
-  {
-   "ip": "123.56.196.188",
-   "port": 8080,
-   "city": "Beijing",
-   "anonymity": "elite",
-   "latency_ms": 7760.0,
-   "source": "hproxy",
+   "latency_ms": 9297.689999999999,
+   "source": "qiyunip",
+   "verified_by_source": true,
    "quality": 30
   },
   {
@@ -1237,6 +1215,15 @@
    "quality": 30
   },
   {
+   "ip": "36.111.205.240",
+   "port": 6666,
+   "city": "Shanghai",
+   "anonymity": "elite",
+   "latency_ms": 16311.0,
+   "source": "hproxy",
+   "quality": 30
+  },
+  {
    "ip": "114.106.137.169",
    "port": 8089,
    "protocol": "http",
@@ -1263,15 +1250,6 @@
    "quality": 30
   },
   {
-   "ip": "139.196.234.254",
-   "port": 8080,
-   "city": "Shanghai",
-   "anonymity": "elite",
-   "latency_ms": 29312.0,
-   "source": "hproxy",
-   "quality": 30
-  },
-  {
    "ip": "113.223.212.152",
    "port": 8089,
    "protocol": "http",
@@ -1295,6 +1273,78 @@
    "latency_ms": 41578.645000000004,
    "source": "qiyunip",
    "verified_by_source": true,
+   "quality": 30
+  },
+  {
+   "ip": "36.152.150.243",
+   "port": 8081,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": 42844.0,
+   "source": "hproxy",
+   "quality": 30
+  },
+  {
+   "ip": "218.204.141.28",
+   "port": 8123,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "115.228.106.226",
+   "port": 3128,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "122.246.148.179",
+   "port": 8090,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "112.194.93.8",
+   "port": 9000,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "183.221.147.123",
+   "port": 8123,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "183.207.228.7",
+   "port": 9498,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "110.73.3.152",
+   "port": 8123,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
    "quality": 30
   },
   {
@@ -1327,24 +1377,6 @@
   {
    "ip": "183.222.158.178",
    "port": 8123,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "1.162.101.117",
-   "port": 8088,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "121.33.84.12",
-   "port": 8090,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1388,6 +1420,24 @@
    "quality": 30
   },
   {
+   "ip": "120.76.28.207",
+   "port": 1234,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "42.48.211.217",
+   "port": 8088,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
    "ip": "60.210.164.32",
    "port": 8088,
    "city": "",
@@ -1417,24 +1467,6 @@
   {
    "ip": "115.226.148.46",
    "port": 9000,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "183.141.73.4",
-   "port": 3128,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "171.39.83.248",
-   "port": 8123,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1478,16 +1510,7 @@
    "quality": 30
   },
   {
-   "ip": "218.86.138.101",
-   "port": 8090,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "58.42.129.19",
+   "ip": "140.112.252.225",
    "port": 8088,
    "city": "",
    "anonymity": "elite",
@@ -1496,7 +1519,7 @@
    "quality": 30
   },
   {
-   "ip": "183.220.70.40",
+   "ip": "183.223.168.38",
    "port": 8123,
    "city": "",
    "anonymity": "elite",
@@ -1505,8 +1528,8 @@
    "quality": 30
   },
   {
-   "ip": "111.184.226.3",
-   "port": 8088,
+   "ip": "118.123.46.122",
+   "port": 8998,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1514,8 +1537,17 @@
    "quality": 30
   },
   {
-   "ip": "121.232.145.196",
-   "port": 9000,
+   "ip": "222.82.222.242",
+   "port": 9999,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "218.86.138.101",
+   "port": 8090,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1534,6 +1566,24 @@
   {
    "ip": "183.240.87.229",
    "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "115.223.249.91",
+   "port": 9000,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "112.54.124.34",
+   "port": 8123,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1568,33 +1618,6 @@
    "quality": 30
   },
   {
-   "ip": "118.232.39.13",
-   "port": 8088,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "150.255.9.66",
-   "port": 8090,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "182.92.67.54",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
    "ip": "183.208.46.73",
    "port": 8123,
    "city": "",
@@ -1615,6 +1638,24 @@
   {
    "ip": "27.44.6.135",
    "port": 8088,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "60.217.223.178",
+   "port": 8090,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "49.67.54.229",
+   "port": 808,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1658,8 +1699,8 @@
    "quality": 30
   },
   {
-   "ip": "119.7.95.158",
-   "port": 9000,
+   "ip": "183.196.128.250",
+   "port": 8080,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1667,8 +1708,8 @@
    "quality": 30
   },
   {
-   "ip": "183.211.83.249",
-   "port": 8123,
+   "ip": "36.42.153.63",
+   "port": 80,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1676,8 +1717,8 @@
    "quality": 30
   },
   {
-   "ip": "140.113.66.182",
-   "port": 8088,
+   "ip": "163.125.18.64",
+   "port": 8888,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1685,8 +1726,35 @@
    "quality": 30
   },
   {
-   "ip": "117.139.36.199",
-   "port": 8123,
+   "ip": "60.207.166.152",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "111.13.12.202",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "27.46.23.81",
+   "port": 8888,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "163.125.206.25",
+   "port": 9797,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1721,42 +1789,6 @@
    "quality": 30
   },
   {
-   "ip": "113.102.252.204",
-   "port": 9999,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "58.251.230.9",
-   "port": 9797,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "110.84.129.27",
-   "port": 8888,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "49.90.37.240",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
    "ip": "123.65.217.120",
    "port": 9999,
    "city": "",
@@ -1775,6 +1807,42 @@
    "quality": 30
   },
   {
+   "ip": "113.83.18.205",
+   "port": 9999,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "61.163.165.165",
+   "port": 9999,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "49.93.33.5",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "122.72.30.199",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
    "ip": "49.93.16.189",
    "port": 3128,
    "city": "",
@@ -1785,24 +1853,6 @@
   },
   {
    "ip": "122.72.120.38",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "220.198.106.39",
-   "port": 9999,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "111.161.126.84",
    "port": 80,
    "city": "",
    "anonymity": "elite",
@@ -1856,6 +1906,15 @@
    "quality": 30
   },
   {
+   "ip": "182.92.81.187",
+   "port": 8888,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
    "ip": "183.63.131.18",
    "port": 9999,
    "city": "",
@@ -1885,15 +1944,6 @@
   {
    "ip": "49.91.15.241",
    "port": 3128,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "116.4.38.18",
-   "port": 9000,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -1946,6 +1996,24 @@
    "quality": 30
   },
   {
+   "ip": "120.192.92.98",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
+   "ip": "163.125.17.124",
+   "port": 8888,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "kuaidaili",
+   "quality": 30
+  },
+  {
    "ip": "117.9.133.25",
    "port": 9797,
    "city": "",
@@ -1982,42 +2050,6 @@
    "quality": 30
   },
   {
-   "ip": "183.60.44.136",
-   "port": 88,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "183.57.82.74",
-   "port": 8081,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "113.66.157.120",
-   "port": 9797,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "112.91.208.78",
-   "port": 9999,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
    "ip": "14.218.77.151",
    "port": 9797,
    "city": "",
@@ -2036,8 +2068,8 @@
    "quality": 30
   },
   {
-   "ip": "60.214.1.214",
-   "port": 80,
+   "ip": "116.226.70.246",
+   "port": 9000,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -2045,966 +2077,84 @@
    "quality": 30
   },
   {
-   "ip": "61.145.217.106",
-   "port": 8001,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "101.81.104.171",
-   "port": 53281,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "183.237.18.56",
-   "port": 9797,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "110.176.251.34",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "60.191.159.85",
-   "port": 3128,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "kuaidaili",
-   "quality": 30
-  },
-  {
-   "ip": "8.212.151.166",
-   "port": 5060,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.59.56",
-   "port": 8090,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.100.88.89",
-   "port": 9080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.102.209.163",
-   "port": 10002,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.209.96.245",
-   "port": 100,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.215.3.250",
-   "port": 119,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.90.177",
-   "port": 8888,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.194.78",
-   "port": 31433,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.195.191",
-   "port": 8081,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.220.205.172",
-   "port": 45,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.54.67",
-   "port": 9098,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.212.165.164",
-   "port": 8085,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "106.15.58.163",
-   "port": 8080,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.102.213.50",
-   "port": 8089,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.42.167",
-   "port": 6379,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.92.194.235",
-   "port": 8008,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "121.43.109.88",
-   "port": 3128,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.37.235",
-   "port": 3129,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.102.208.23",
-   "port": 3129,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.148.20.126",
-   "port": 9098,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.222.247",
-   "port": 80,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "139.224.186.221",
-   "port": 6666,
-   "city": "浙江省杭州市 阿里云BGP数据中心",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.212.168.170",
-   "port": 4145,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.195.139",
-   "port": 8334,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.102.214.208",
-   "port": 8443,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.104.28.135",
-   "port": 8081,
-   "city": "山东省青岛市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.116.181.146",
-   "port": 9443,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.51.115",
-   "port": 4145,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.107.142.198",
-   "port": 8081,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.120.0.231",
-   "port": 80,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.121.182.88",
-   "port": 139,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.23.154",
-   "port": 7878,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "101.132.249.207",
-   "port": 1337,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.112.19.200",
-   "port": 8123,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.74.114",
-   "port": 4145,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "120.79.217.196",
-   "port": 9090,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.148.23.202",
+   "ip": "221.182.62.115",
    "port": 9999,
-   "city": "中国 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "kuaidaili",
    "quality": 30
   },
   {
-   "ip": "47.100.130.127",
-   "port": 3128,
-   "city": "上海市 阿里云",
+   "ip": "61.157.126.37",
+   "port": 18000,
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "kuaidaili",
    "quality": 30
   },
   {
-   "ip": "8.134.149.133",
-   "port": 8081,
-   "city": "广东省深圳市 \u00025?",
+   "ip": "122.200.76.132",
+   "port": 8080,
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "kuaidaili",
    "quality": 30
   },
   {
-   "ip": "47.92.219.102",
-   "port": 1081,
-   "city": "北京市 阿里云",
+   "ip": "123.7.115.141",
+   "port": 9999,
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "kuaidaili",
    "quality": 30
   },
   {
-   "ip": "47.104.27.249",
-   "port": 4006,
-   "city": "山东省青岛市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.109.110.100",
+   "ip": "121.41.54.128",
    "port": 80,
-   "city": "四川省成都市 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "ip3366",
    "quality": 30
   },
   {
-   "ip": "47.106.198.144",
-   "port": 1080,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "120.26.52.35",
-   "port": 8081,
-   "city": "浙江省杭州市 阿里巴巴网络有限公司BGP数据中心(BGP)",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.112.11.170",
-   "port": 3128,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.119.22.92",
+   "ip": "121.41.98.141",
    "port": 80,
-   "city": "浙江省杭州市 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "ip3366",
    "quality": 30
   },
   {
-   "ip": "39.102.211.162",
-   "port": 3128,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.148.22.214",
-   "port": 20002,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.100.73.178",
-   "port": 45,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.197.208",
-   "port": 8001,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.128.6",
-   "port": 19,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.109.83.196",
-   "port": 8800,
-   "city": "四川省成都市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.137.38.48",
-   "port": 9080,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.220.141.8",
-   "port": 8889,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.116.126.57",
-   "port": 8118,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.57.33",
-   "port": 8080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.137.13.191",
-   "port": 9098,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.220.204.215",
-   "port": 8123,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.92.152.43",
-   "port": 9080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "120.26.104.146",
-   "port": 8080,
-   "city": "浙江省杭州市 阿里巴巴网络有限公司BGP数据中心(BGP)",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.16.201",
-   "port": 9080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.146.200.53",
-   "port": 8080,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.71.75",
-   "port": 8080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.106.75.125",
-   "port": 3128,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.215.15.163",
-   "port": 11,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.138.149.37",
-   "port": 8889,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.138.82.6",
+   "ip": "47.98.240.254",
    "port": 80,
-   "city": "中国 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "ip3366",
    "quality": 30
   },
   {
-   "ip": "8.213.215.187",
-   "port": 9098,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "106.14.91.83",
-   "port": 8082,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.200.183",
-   "port": 8080,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.138.133.207",
-   "port": 8080,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.148.24.225",
-   "port": 8081,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.219.229.53",
-   "port": 1081,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.211.49.86",
-   "port": 999,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.134.213",
-   "port": 20,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "139.224.195.153",
-   "port": 3129,
-   "city": "浙江省杭州市 阿里云BGP数据中心",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "139.224.207.73",
-   "port": 8888,
-   "city": "浙江省杭州市 阿里云BGP数据中心",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "101.132.252.152",
-   "port": 8123,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "106.15.137.41",
-   "port": 8085,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.116.210.163",
+   "ip": "47.96.252.192",
    "port": 80,
-   "city": "浙江省杭州市 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
+   "source": "ip3366",
    "quality": 30
   },
   {
-   "ip": "8.148.4.166",
-   "port": 13,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.112.15.44",
-   "port": 3128,
-   "city": "广东省深圳市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.36.163",
+   "ip": "47.96.37.159",
    "port": 80,
-   "city": "北京市 阿里云",
+   "city": "",
    "anonymity": "elite",
    "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.119.20.8",
-   "port": 9098,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.69.76",
-   "port": 3128,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "114.215.127.92",
-   "port": 12000,
-   "city": "山东省青岛市 阿里云BGP数据中心",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.119.19.221",
-   "port": 80,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.119.164.33",
-   "port": 9080,
-   "city": "浙江省杭州市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.121.133.212",
-   "port": 8080,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "120.25.189.254",
-   "port": 8081,
-   "city": "广东省深圳市 阿里云BGP数据中心(BGP)",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.92.143.92",
-   "port": 8888,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.221.141.88",
-   "port": 95,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.102.210.176",
-   "port": 8008,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "39.104.27.89",
-   "port": 8080,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.221.138.111",
-   "port": 46691,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.221.139.222",
-   "port": 8008,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.92.82.167",
-   "port": 1081,
-   "city": "北京市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.215.12.103",
-   "port": 8002,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "47.121.129.129",
-   "port": 7777,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.220.136.174",
-   "port": 5060,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "8.213.156.191",
-   "port": 10000,
-   "city": "中国 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
-   "quality": 30
-  },
-  {
-   "ip": "101.132.248.7",
-   "port": 3128,
-   "city": "上海市 阿里云",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "zdaye",
+   "source": "ip3366",
    "quality": 30
   },
   {
@@ -3017,7 +2167,25 @@
    "quality": 30
   },
   {
-   "ip": "47.96.252.225",
+   "ip": "121.41.97.228",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
+   "ip": "101.37.28.73",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
+   "ip": "47.97.10.28",
    "port": 80,
    "city": "",
    "anonymity": "elite",
@@ -3035,7 +2203,7 @@
    "quality": 30
   },
   {
-   "ip": "47.94.57.119",
+   "ip": "121.40.88.36",
    "port": 80,
    "city": "",
    "anonymity": "elite",
@@ -3062,15 +2230,6 @@
    "quality": 30
   },
   {
-   "ip": "47.97.70.185",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "8.142.25.112",
    "port": 8899,
    "city": "",
@@ -3082,15 +2241,6 @@
   {
    "ip": "185.52.252.47",
    "port": 8080,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "101.37.21.187",
-   "port": 80,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3117,6 +2267,15 @@
   },
   {
    "ip": "47.105.80.6",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
+   "ip": "47.98.112.7",
    "port": 80,
    "city": "",
    "anonymity": "elite",
@@ -3206,6 +2365,15 @@
    "quality": 30
   },
   {
+   "ip": "60.204.145.212",
+   "port": 8888,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
    "ip": "183.230.146.12",
    "port": 20000,
    "city": "",
@@ -3251,6 +2419,15 @@
    "quality": 30
   },
   {
+   "ip": "47.106.120.76",
+   "port": 8080,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
    "ip": "47.99.57.148",
    "port": 8080,
    "city": "",
@@ -3262,15 +2439,6 @@
   {
    "ip": "123.129.224.13",
    "port": 7878,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "61.153.153.98",
-   "port": 80,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3361,6 +2529,15 @@
   {
    "ip": "47.102.158.96",
    "port": 8080,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
+   "ip": "106.14.64.22",
+   "port": 1080,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3476,6 +2653,15 @@
    "quality": 30
   },
   {
+   "ip": "183.232.232.69",
+   "port": 80,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
    "ip": "39.103.194.144",
    "port": 80,
    "city": "",
@@ -3512,8 +2698,8 @@
    "quality": 30
   },
   {
-   "ip": "183.234.218.202",
-   "port": 9002,
+   "ip": "116.63.160.98",
+   "port": 8899,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3521,17 +2707,8 @@
    "quality": 30
   },
   {
-   "ip": "114.116.252.222",
-   "port": 443,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "47.101.38.220",
-   "port": 80,
+   "ip": "183.64.239.19",
+   "port": 8060,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3550,24 +2727,6 @@
   {
    "ip": "129.211.37.182",
    "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "8.130.48.5",
-   "port": 8002,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "124.70.78.157",
-   "port": 8000,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3620,24 +2779,6 @@
    "quality": 30
   },
   {
-   "ip": "117.71.155.47",
-   "port": 8089,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "223.247.46.133",
-   "port": 8089,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "117.71.149.36",
    "port": 8089,
    "city": "",
@@ -3674,15 +2815,6 @@
    "quality": 30
   },
   {
-   "ip": "114.230.107.27",
-   "port": 8089,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "111.225.152.32",
    "port": 8089,
    "city": "",
@@ -3693,15 +2825,6 @@
   },
   {
    "ip": "117.71.154.182",
-   "port": 8089,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "117.71.133.176",
    "port": 8089,
    "city": "",
    "anonymity": "elite",
@@ -3721,6 +2844,15 @@
   {
    "ip": "8.213.129.15",
    "port": 3128,
+   "city": "",
+   "anonymity": "elite",
+   "latency_ms": null,
+   "source": "ip3366",
+   "quality": 30
+  },
+  {
+   "ip": "8.213.128.6",
+   "port": 1234,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3800,15 +2932,6 @@
    "quality": 30
   },
   {
-   "ip": "58.221.40.178",
-   "port": 80,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "211.144.94.25",
    "port": 80,
    "city": "",
@@ -3854,26 +2977,8 @@
    "quality": 30
   },
   {
-   "ip": "112.51.96.118",
-   "port": 9091,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "120.46.197.14",
    "port": 8083,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "61.164.147.242",
-   "port": 80,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
@@ -3935,33 +3040,6 @@
    "quality": 30
   },
   {
-   "ip": "124.70.221.252",
-   "port": 8080,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "47.109.56.77",
-   "port": 1081,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
-   "ip": "113.195.207.249",
-   "port": 9091,
-   "city": "",
-   "anonymity": "elite",
-   "latency_ms": null,
-   "source": "ip3366",
-   "quality": 30
-  },
-  {
    "ip": "223.100.178.167",
    "port": 9091,
    "city": "",
@@ -3971,8 +3049,8 @@
    "quality": 30
   },
   {
-   "ip": "111.40.62.199",
-   "port": 9091,
+   "ip": "117.146.231.40",
+   "port": 9002,
    "city": "",
    "anonymity": "elite",
    "latency_ms": null,
